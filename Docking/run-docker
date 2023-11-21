@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+docker run \
+    -it --rm \
+    -p 10000:8888 \
+    -v "${PWD}":/home/jovyan \
+    -e GRANT_SUDO=yes --user root \
+    jupyter/scipy-notebook:x86_64-ubuntu-22.04

@@ -3,3 +3,7 @@
 Docking/vina
 Docking/data/5ht1a-chembl-ki-selected
 *.pdbqt
+
+.jupyter
+.local
+.npm
